@@ -3,7 +3,7 @@ Este proyecto es un sistema bancario desarrollado con ASP.NET Core Web API utili
 
     <div align="center"> <img src="https://raw.githubusercontent.com/tuusuario/tu-repo/main/assets/screenshot_home.png" alt="Inicio del sistema" width="80%"> </div>
 
-  🧠 Características Principales
+  # 🧠 Características Principales
 
 
 ✔️ Gestión de Clientes (crear, consultar, actualizar, eliminar)
@@ -25,7 +25,7 @@ Este proyecto es un sistema bancario desarrollado con ASP.NET Core Web API utili
 
 
 
-⚙️ Tecnologías Utilizadas
+# ⚙️ Tecnologías Utilizadas
 
 
 ASP.NET Core 6 Web API
@@ -46,7 +46,7 @@ SQL Server Management Studio
 
 
 
-🏗️ Estructura del Proyecto
+# 🏗️ Estructura del Proyecto
 
 
 SistemaBancario/
@@ -87,7 +87,7 @@ SistemaBancario/
 └── appsettings.json         # Configuración de la cadena de conexión
 
 
-🚀 Cómo Ejecutar el Proyecto
+# 🚀 Cómo Ejecutar el Proyecto
 
 
 Clona el repositorio:
