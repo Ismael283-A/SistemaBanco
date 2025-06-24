@@ -1,0 +1,264 @@
+[
+  {
+    "ContainingType": "Servidor.Controllers.ClientesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Clientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Servidor.Models.Cliente, Servidor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Servidor.Controllers.ClientesController",
+    "Method": "Post",
+    "RelativePath": "api/Clientes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "c",
+        "Type": "Servidor.Models.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Servidor.Controllers.ClientesController",
+    "Method": "Get",
+    "RelativePath": "api/Clientes/{cedula}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cedula",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Servidor.Models.Cliente",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Servidor.Controllers.ClientesController",
+    "Method": "Put",
+    "RelativePath": "api/Clientes/{cedula}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cedula",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "c",
+        "Type": "Servidor.Models.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Servidor.Controllers.ClientesController",
+    "Method": "Delete",
+    "RelativePath": "api/Clientes/{cedula}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cedula",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaBanco.Api.Controllers.CuentasController",
+    "Method": "GetAll",
+    "RelativePath": "api/Cuentas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaBanco.Api.Controllers.CuentasController",
+    "Method": "Create",
+    "RelativePath": "api/Cuentas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "c",
+        "Type": "Servidor.Models.Cuenta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaBanco.Api.Controllers.CuentasController",
+    "Method": "GetByNumero",
+    "RelativePath": "api/Cuentas/{numero}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numero",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaBanco.Api.Controllers.CuentasController",
+    "Method": "Update",
+    "RelativePath": "api/Cuentas/{numero}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numero",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "c",
+        "Type": "Servidor.Models.Cuenta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaBanco.Api.Controllers.CuentasController",
+    "Method": "Delete",
+    "RelativePath": "api/Cuentas/{numero}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numero",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaBanco.Api.Controllers.CuentasController",
+    "Method": "GetSaldo",
+    "RelativePath": "api/Cuentas/{numero}/saldo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numero",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Servidor.Controllers.TransferenciasController",
+    "Method": "GetAll",
+    "RelativePath": "api/Transferencias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Servidor.Models.Transferencia, Servidor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Servidor.Controllers.TransferenciasController",
+    "Method": "Post",
+    "RelativePath": "api/Transferencias",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "t",
+        "Type": "Servidor.Models.Transferencia",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Servidor.Controllers.TransferenciasController",
+    "Method": "Delete",
+    "RelativePath": "api/Transferencias/{numero}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numero",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Servidor.Controllers.TransferenciasController",
+    "Method": "Transferir",
+    "RelativePath": "api/Transferencias/Transferir",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "t",
+        "Type": "Servidor.Models.Transferencia",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "Q4eKSaOVwq+Ja4Lg+R2dqimDqNNdhElywabWnv6aZdw=",
+  "Source": "Servidor",
+  "BasePath": "_content/Servidor",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Servidor\\wwwroot",
+      "Source": "Servidor",
+      "ContentRoot": "D:\\Segundo Parcia_PAl\\SistemaBanco\\SistemaBanco\\wwwroot\\",
+      "BasePath": "_content/Servidor",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Segundo Parcia_PAl\\SistemaBanco\\SistemaBanco\\wwwroot\\CSS\\style.css",
+      "SourceId": "Servidor",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Segundo Parcia_PAl\\SistemaBanco\\SistemaBanco\\wwwroot\\",
+      "BasePath": "_content/Servidor",
+      "RelativePath": "CSS/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CSS\\style.css"
+    },
+    {
+      "Identity": "D:\\Segundo Parcia_PAl\\SistemaBanco\\SistemaBanco\\wwwroot\\index.html",
+      "SourceId": "Servidor",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Segundo Parcia_PAl\\SistemaBanco\\SistemaBanco\\wwwroot\\",
+      "BasePath": "_content/Servidor",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Segundo Parcia_PAl\\SistemaBanco\\SistemaBanco\\wwwroot\\JS\\app.js",
+      "SourceId": "Servidor",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Segundo Parcia_PAl\\SistemaBanco\\SistemaBanco\\wwwroot\\",
+      "BasePath": "_content/Servidor",
+      "RelativePath": "JS/app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\JS\\app.js"
+    }
+  ]
+}

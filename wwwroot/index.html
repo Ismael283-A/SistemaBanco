@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Bancario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Sistema Bancario</h1>
+
+    <!-- Navegación -->
+    <nav>
+        <button onclick="mostrarSeccion('clientes')">Clientes</button>
+        <button onclick="mostrarSeccion('cuentas')">Cuentas</button>
+        <button onclick="mostrarSeccion('transferencias')">Transferencias</button>
+    </nav>
+
+    <!-- Sección Clientes -->
+    <section id="clientes" class="seccion">
+        <h2>Clientes</h2>
+        <form id="clienteForm">
+            <input type="text" id="dniCliente" placeholder="Cédula" required>
+            <input type="text" id="nombreCliente" placeholder="Nombre" required>
+            <input type="text" id="apellidoCliente" placeholder="Apellido" required>
+            <button type="submit">Guardar Cliente</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Cédula</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="clienteTabla"></tbody>
+        </table>
+    </section>
+
+    <!-- Sección Cuentas -->
+    <section id="cuentas" class="seccion hidden">
+        <h2>Cuentas</h2>
+        <form id="cuentaForm">
+            <input type="text" id="numeroCuenta" placeholder="Número" required>
+            <input type="text" id="tipoCuenta" placeholder="Tipo" required>
+            <input type="number" id="saldoCuenta" placeholder="Saldo" required>
+            <input type="text" id="clienteIdCuenta" placeholder="Cédula Cliente" required>
+            <button type="submit">Guardar Cuenta</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Número</th>
+                    <th>Tipo</th>
+                    <th>Saldo</th>
+                    <th>Cédula Cliente</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="cuentaTabla"></tbody>
+        </table>
+    </section>
+
+    <!-- Sección Transferencias -->
+    <section id="transferencias" class="seccion hidden">
+        <h2>Transferencias</h2>
+        <form id="transferenciaForm">
+            <input type="text" id="origen" placeholder="Cuenta Origen" required>
+            <input type="text" id="destino" placeholder="Cuenta Destino" required>
+            <input type="number" id="valor" placeholder="Valor" required>
+            <button type="submit">Realizar Transferencia</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Origen</th>
+                    <th>Destino</th>
+                    <th>Valor</th>
+                    <th>Fecha</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="transferenciaTabla"></tbody>
+        </table>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
