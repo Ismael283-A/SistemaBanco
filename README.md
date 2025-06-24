@@ -34,7 +34,10 @@ Visual Studio 2022
 
 SQL Server Management Studio
 
+
+
 🏗️ Estructura del Proyecto
+
 
 SistemaBancario/
 
@@ -75,9 +78,13 @@ SistemaBancario/
 
 
 🚀 Cómo Ejecutar el Proyecto
+
+
 Clona el repositorio:
 
 git clone https://github.com/Ismael283-A/SistemaBanco
+
+
 Configura la cadena de conexión en appsettings.json:
 
     "ConnectionOptions": {
