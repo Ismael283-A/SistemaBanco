@@ -3,8 +3,7 @@ Este proyecto es un sistema bancario desarrollado con ASP.NET Core Web API utili
 
     <div align="center"> <img src="https://raw.githubusercontent.com/tuusuario/tu-repo/main/assets/screenshot_home.png" alt="Inicio del sistema" width="80%"> </div>
 
-    
-🧠 Características Principales
+  🧠 Características Principales
 
 
 ✔️ Gestión de Clientes (crear, consultar, actualizar, eliminar)
