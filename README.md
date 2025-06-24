@@ -8,11 +8,22 @@ Este proyecto es un sistema bancario desarrollado con ASP.NET Core Web API utili
 
 
 ✔️ Gestión de Clientes (crear, consultar, actualizar, eliminar)
+
+
 ✔️ Administración de Cuentas Bancarias
+
+
 ✔️ Registro y ejecución de Transferencias
+
+
 ✔️ Interfaz gráfica con HTML, CSS y JavaScript puro
+
+
 ✔️ API documentada y probada con Swagger
+
+
 ✔️ Separación por capas (Controller, Service, Model)
+
 
 
 ⚙️ Tecnologías Utilizadas
